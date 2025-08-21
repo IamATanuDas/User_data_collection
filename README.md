@@ -1,6 +1,9 @@
 # User_data_collection
 Everything inside one single file (user_data.php) instead of multiple files. That file should
 Create the Database:
+
+[[[[[[
+
 CREATE DATABASE IF NOT EXISTS user_data;
 
 USE user_data;
@@ -22,4 +25,5 @@ CREATE TABLE IF NOT EXISTS users (
     state VARCHAR(100),
     country VARCHAR(50) DEFAULT 'India'
 );
+]]]]]]]
 Run this SQL to create database + table:
